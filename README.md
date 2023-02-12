@@ -1,6 +1,4 @@
 # Frontend-test-2
-
-## A solution written in typescript meeting the following requirements:
   
 ### Create a react app to allow users order food from restaurants:
 
