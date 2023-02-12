@@ -30,7 +30,7 @@ User can review all his/her previous choices before final submit.
 * User can't proceed to next step unless have valid inputs on the current step.
 * if inputs are invalid, show validation errors.
 * At any step user can go back and change their preference on any previous step.
-* For the final submit, just print the results in console, as we don't have any backend at this moment.
+* For the final submit, just print the results in console.
 * Feel free to alter/optimize with the UI/UX.
 
 ## Instructions
