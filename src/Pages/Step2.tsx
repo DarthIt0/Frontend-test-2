@@ -6,18 +6,13 @@ interface Props {
   setPage: (page: number) => void;
   place: string;
   setPlace: (place: string) => void;
-  //options: { id: string; name: string; place: string; availableCategories: string[] }[];
   options: { id: number; name: string; restaurant: string; availableMeals: string[] }[];
 }
 
 const Step2: React.FC<Props> = (props) => {
   
-  //const [category, setCategory] = useState<string>("");
   const [error, setError] = useState<string | null>(null);
-  //const [page, setPage] = useState<number>(2);
 
-  
-  //const {category, options} = props;
   const { category, setPage, place, setPlace, options } = props;
   
   const filteredOptions = Array.from(new Set(options
