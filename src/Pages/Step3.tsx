@@ -78,7 +78,6 @@ const Step3: React.FC<Props> = (props) => {
     setPage(2);
   };
 
-
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h1> </h1>
