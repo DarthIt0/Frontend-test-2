@@ -34,8 +34,6 @@ const Step2: React.FC<Props> = (props) => {
     setPage(1);
   };
   
-
-  
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h1> </h1>
