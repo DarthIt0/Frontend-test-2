@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Frontend-test-2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This repository contains the solution to the following:
+  
+### Create a react app to allow users order food from restaurants:
 
-## Available Scripts
+### Step 1
 
-In the project directory, you can run:
+* Select Meal Category (breakfast/lunch/dinner) (required)
+* Need to input number of people (maximum 10) (required)
 
-### `npm start`
+### Step 2
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Select restaurants that provides meals based on selection in Step 1. (required)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Step 3
 
-### `npm test`
+* Select dishes based on the meal and restaurant selected in Step 1 & Step 2.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* First choose a dish
+* Then user can add number of servings of the dish (defaulted to 1)
+* Also user CAN'T select the same dish twice, rather add more servings.
 
-### `npm run build`
+The total number of dishes at least equals the number of people, max of 10 is allowed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Step 4
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+User can review all his/her previous choices before final submit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Notes
 
-### `npm run eject`
+* User can't proceed to next step unless have valid inputs on the current step.
+* if inputs are invalid, show validation errors.
+* At any step user can go back and change their preference on any previous step.
+* For the final submit, just print the results in console, as we don't have any backend at this moment.
+* Feel free to alter/optimize with the UI/UX.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Instructions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### To clone this repository use:
+  
+  - git clone https://github.com/DarthIt0/Frontend-test-2.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### To download a zip file of the project, access this link:
+  
+  - https://github.com/DarthIt0/Frontend-test-2/archive/refs/heads/main.zip
