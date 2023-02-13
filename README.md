@@ -1,10 +1,10 @@
 # Frontend-test-2
-  
-### Create a react app to allow users order food from restaurants:
 
-#### To see Frontend test 2 open:
+## To see Frontend test 2 open:
   
   - https://darthit0.github.io/Frontend-test-2-build/
+
+### Create a react app to allow users order food from restaurants:
 
 ### Step 1
 
