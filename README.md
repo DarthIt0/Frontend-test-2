@@ -2,6 +2,10 @@
   
 ### Create a react app to allow users order food from restaurants:
 
+#### To see Frontend test 2 open:
+  
+  - https://darthit0.github.io/Frontend-test-2-build/
+
 ### Step 1
 
 * Select Meal Category (breakfast/lunch/dinner) (required)
