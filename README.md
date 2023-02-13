@@ -1,6 +1,6 @@
 # Frontend-test-2
 
-##### To see Frontend test 2 open:
+### To see Frontend test 2 open:
   
   - https://darthit0.github.io/Frontend-test-2-build/
 
